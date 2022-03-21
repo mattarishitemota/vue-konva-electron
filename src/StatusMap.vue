@@ -15,11 +15,13 @@ export default {
         width: 100,
         height: 100,
         fill: 'gray',
-        stroke: 'black'
+        stroke: 'black',
+        draggable: true
       },
       configRect2: {
         x: 100,
-        y: 100
+        y: 100,
+        draggable: true
       }
     };
   }
